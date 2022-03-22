@@ -1,0 +1,16 @@
+{
+  "name": "fake-ott-server",
+  "version": "0.0.0",
+  "description": "Fake OTT Server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "node-fetch": "2",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
